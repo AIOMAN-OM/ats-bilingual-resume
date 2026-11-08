@@ -4,6 +4,16 @@
 
 An agent skill that audits, rewrites, translates and generates ATS-ready resumes in Arabic and English, with a scored audit, evidence-based rewriting (no invented facts) and editable DOCX + PDF outputs in classic, accent-color and photo-color styles.
 
+## أمثلة من المخرجات | Examples
+
+مخرجات فعلية من تجربة المهارة على شخصية خيالية (سالم الحارثي، محلل بيانات) — النمط الكلاسيكي بالإنجليزية والعربية، بتقييم ATS تقديري 96/100 للإنجليزية و88/100 للعربية.
+
+Real output from testing the skill with a fictional profile — classic style, English and Arabic (estimated ATS score 96/100 EN, 88/100 AR).
+
+| English (classic) | العربية (كلاسيكي) |
+|---|---|
+| <img src="examples/resume-classic-en.jpg" width="400"> | <img src="examples/resume-classic-ar.jpg" width="400"> |
+
 ## Structure
 - `SKILL.md` — main instructions
 - `references/` — ATS audit rubric, input schema, language rules, output matrix
