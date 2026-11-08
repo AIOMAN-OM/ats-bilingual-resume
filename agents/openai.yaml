@@ -1,0 +1,15 @@
+interface:
+  display_name: منشئ السيرة الذاتية ATS ثنائي اللغة
+  short_description: تدقيق وإنشاء سير ATS عربية وإنجليزية
+  brand_color: '#0F766E'
+  default_prompt: استخدم $ats-bilingual-resume لتدقيق سيرتي الذاتية وإنشاء نسخ عربية
+    وإنجليزية متوافقة مع ATS بصيغتي Word وPDF.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
